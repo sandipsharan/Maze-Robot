@@ -1,0 +1,18 @@
+
+------------------------------------------------------------------------
+Build the application
+------------------------------------------------------------------------
+g++ -std=c++17  -g main.cpp mouse/mouse.cpp simulator/simulator.cpp -o main
+
+------------------------------------------------------------------------
+To switch between left-hand rule approach and right-hand rule approach
+------------------------------------------------------------------------
+For right hand approach type this command in the run command box of the simulator
+------------------------------------------------------------------------
+./main -right
+------------------------------------------------------------------------
+For left hand approach type this command in the run command box of the simulator
+------------------------------------------------------------------------
+./main -left
+------------------------------------------------------------------------
+
